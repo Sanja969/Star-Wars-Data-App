@@ -4,7 +4,7 @@ Mobile web app that gets information about Films, Characters, Planets, and Stars
 
 # Screenshots
 
-<img src="/screenshots/screenshot1.png" alt="star wars" width="100">
+<img src="/screenshots/screenshot1.png" alt="star wars" width="100" style="float:left">
 <img src="/screenshots/screenshot2.png" alt="star wars" width="100">
 <img src="/screenshots/screenshot3.png" alt="star wars" width="100">
 <img src="/screenshots/screenshot4.png" alt="star wars" width="100">
