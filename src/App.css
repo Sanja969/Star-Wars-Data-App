@@ -23,11 +23,11 @@ body {
 
 p {
   margin: 0 20px !important;
-  color:antiquewhite !important;
+  color: antiquewhite !important;
 }
 
 .active {
-  color:rgb(9, 208, 89) !important;
+  color: rgb(9, 208, 89) !important;
 }
 
 .headline {
