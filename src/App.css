@@ -1,3 +1,149 @@
-.active {
-  color: blue;
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Roboto&display=swap');
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#root {
+  padding-top: 50px;
+  background-color: #3364b4;
+  font-family: 'Mochiy Pop One', sans-serif;
+  color: #d3d8c7;
+  min-height: 100%;
+  position: relative;
+}
+
+.navbar {
+  background-color: #242529;
+  box-shadow: 0 0 5px 5px #203153;
+}
+
+.headline {
+  background-image: url('https://cdn.pixabay.com/photo/2020/05/07/19/37/c-3po-5142911_960_720.jpg');
+  background-size: cover;
+}
+
+.navbar-toggler-icon {
+  background-image: url('https://cdn-icons-png.flaticon.com/512/929/929846.png') !important;
+  opacity: 0.5;
+}
+
+.navbar-toggler,
+.navbar-toggler:active {
+  color: rgba(148, 24, 215, 0) !important;
+  border: none !important;
+}
+
+.categories {
+  height: 150px;
+  background-image: url('https://cdn.pixabay.com/photo/2017/11/01/14/26/star-wars-2908144_960_720.png') !important;
+  background-size: 400px;
+  background-position: -20px 0;
+  background-repeat: no-repeat;
+}
+
+.card-char {
+  height: 170px;
+  box-shadow: 0 0 10px #6f91d6;
+}
+
+.card-char > div {
+  height: 90px;
+}
+
+button {
+  background-color: inherit;
+  border: none;
+  font-size: 24px;
+  color: white;
+}
+
+.film-card {
+  height: 140px;
+  box-shadow: 0 0 10px #6f91d6;
+  background-image: url('https://cdn.pixabay.com/photo/2016/03/30/10/12/cinema-1290368_960_720.png');
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+
+.card-character {
+  background-image: url('https://cdn.pixabay.com/photo/2018/05/10/01/06/at-st-3386610_960_720.png');
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.card-planets {
+  background-image: url('https://cdn4.fiction.live/fp/fSDByXtSo2AeakQkQLKx?height=600&width=800&quality=95');
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.card-ships {
+  background-image: url('https://cdn.pixabay.com/photo/2022/06/14/19/58/ufo-7262749_960_720.png');
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+}
+
+.film-card > div {
+  height: 50px;
+}
+
+.card-char:first-child {
+  height: 180px !important;
+  width: 100% !important;
+}
+
+.card-char:first-child > div {
+  height: 100px !important;
+}
+
+.card-char:first-child > div > div {
+  justify-content: end !important;
+}
+
+.card-char:first-child > div > div * {
+  margin-left: 20px;
+}
+
+.detail {
+  height: 150px;
+  background-image: url('https://cdn.pixabay.com/photo/2016/07/29/19/15/darth-maul-1555343_960_720.png');
+  background-size: cover;
+}
+
+.detail-info {
+  background-image: url('https://cdn.pixabay.com/photo/2017/07/02/09/51/star-wars-2463926_960_720.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.search {
+  height: 40px;
+  background-color: inherit;
+  border: none;
+  color: white;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 10px rgb(9, 208, 89);
+}
+
+.search:focus {
+  border: none !important;
+  outline: none !important;
+  box-shadow: 0 0 10px 10px rgb(102, 9, 208);
+}
+
+footer {
+  background-color: #121315;
+  box-shadow: 0 0 5px 5px #203153;
+  height: 60px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }

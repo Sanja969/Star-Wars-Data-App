@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Navbar render Test Navbar snapshot 1`] = `
+<nav
+  className="container-fluid navbar navbar-expand-md navbar-light fixed-top"
+>
+  <div
+    className="container-fluid d-flex align-items-center m-0 p-0"
+  >
+    <button
+      className="navbar-brand fw-bold fs-3 ms-0 ps-0 text-end"
+      onClick={[Function]}
+      type="button"
+    >
+      <img
+        alt="logo"
+        src="logo.png"
+        width="20"
+      />
+      <span
+        className="ps-3 fw-bold h4 text-white"
+      >
+        Star Wars
+      </span>
+    </button>
+    <button
+      aria-controls="navbarTogglerDemo01"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+      className="navbar-toggler"
+      data-bs-target="#navbarTogglerDemo01"
+      data-bs-toggle="collapse"
+      type="button"
+    >
+      <span
+        className="navbar-toggler-icon"
+      />
+    </button>
+    <div
+      className="collapse navbar-collapse text-end justify-content-end text-center py-1"
+      id="navbarTogglerDemo01"
+    >
+      <ul
+        className="navbar-nav ml-auto py-0"
+      >
+        <li
+          className="link py-0"
+        >
+          <a
+            aria-current="page"
+            className="active nav-item"
+            href="/"
+            onClick={[Function]}
+          >
+            <p
+              className="nav-link py-1 my-0 text-white"
+            >
+              Films
+            </p>
+          </a>
+        </li>
+        <li
+          className="link py-0"
+        >
+          <a
+            className="nav-item text-decoration-none"
+            href="/characters"
+            onClick={[Function]}
+          >
+            <p
+              className="nav-link py-1 my-0 text-white"
+            >
+              Characters
+            </p>
+          </a>
+        </li>
+        <li
+          className="link py-0"
+        >
+          <a
+            className="nav-item text-decoration-none"
+            href="/planets"
+            onClick={[Function]}
+          >
+            <p
+              className="nav-link py-1 my-0 text-white"
+            >
+              Planets
+            </p>
+          </a>
+        </li>
+        <li
+          className="link py-0"
+        >
+          <a
+            className="nav-item text-decoration-none"
+            href="/starships"
+            onClick={[Function]}
+          >
+            <p
+              className="nav-link py-1 my-0 text-white"
+            >
+              Starships
+            </p>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+`;
