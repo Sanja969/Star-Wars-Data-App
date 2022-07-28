@@ -1,6 +1,6 @@
 ## Star Wars Info App
 
-Mobile web app that gets information about Films, Characters, Planets, and Starships from https://swapi.dev/ - Star Wars API and displaying, using React and Redux. There are 5 different pages, that show information for items regarding the category. All item cards have the arrow button for navigating to the detail page for showing more information about the item.
+Mobile web app that gets information about Films, Characters, Planets, and Starships from https://swapi.dev/ - Star Wars API and displaying, using React and Redux. There are 5 different pages, that show information for items regarding the category. All item cards have the arrow button for navigating to the detail page for showing more information about the item. There are search bars for every category to find the desired items.
 
 # Screenshots
 
