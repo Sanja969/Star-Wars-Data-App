@@ -44,7 +44,7 @@ const CharactersList = (props) => {
     sorted
       .filter((data) => data.name.toLowerCase().includes(searchValue.toLowerCase()))
       .map((data) => (
-        <div key={data.id} className="card-char card-character w-50 px-2 text-end">
+        <div key={data.id} className="card-char card-character px-2 text-end">
           <button
             onClick={() => showDetail({
               title: data.name,

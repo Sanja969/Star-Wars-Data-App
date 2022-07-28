@@ -48,6 +48,7 @@ body {
 .card-char {
   height: 170px;
   box-shadow: 0 0 10px #6f91d6;
+  width: 50%;
 }
 
 .card-char > div {
@@ -146,4 +147,10 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
+}
+
+@media (min-width: 766px) {
+  .card-char {
+    width: 25% !important;
+  }
 }

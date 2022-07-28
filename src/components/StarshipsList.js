@@ -21,7 +21,7 @@ const StarshipsList = (props) => {
     sorted
       .filter((data) => data.name.toLowerCase().includes(searchValue.toLowerCase()))
       .map((data) => (
-        <div key={data.id} className="card-char card-ships w-50 px-2 text-end">
+        <div key={data.id} className="card-char card-ships px-2 text-end">
           <button
             onClick={() => showDetail({
               title: data.name,
