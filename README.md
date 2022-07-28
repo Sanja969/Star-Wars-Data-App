@@ -7,6 +7,10 @@ Mobile web app that gets information about Films, Characters, Planets, and Stars
 
 [Live Demo Link](https://star-wars-data-app.herokuapp.com/)
 
+# Video:
+
+[About App](https://www.loom.com/share/f3f402ca75e34c609bf9c5353baa86d2)
+
 # Screenshots
 
 <p float="left">
