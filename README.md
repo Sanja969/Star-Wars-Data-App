@@ -9,7 +9,7 @@ Mobile web app that gets information about Films, Characters, Planets, and Stars
 
 # Video:
 
-[About App](https://www.loom.com/share/f3f402ca75e34c609bf9c5353baa86d)
+[About App](https://www.loom.com/share/f3f402ca75e34c609bf9c5353baa86d2)
 
 # Screenshots
 
