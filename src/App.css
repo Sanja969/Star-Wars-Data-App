@@ -21,9 +21,19 @@ body {
   box-shadow: 0 0 5px 5px #203153;
 }
 
+p {
+  margin: 0 20px !important;
+  color:antiquewhite !important;
+}
+
+.active {
+  color:rgb(9, 208, 89) !important;
+}
+
 .headline {
   background-image: url('https://cdn.pixabay.com/photo/2020/05/07/19/37/c-3po-5142911_960_720.jpg');
   background-size: cover;
+  height: 150px;
 }
 
 .navbar-toggler-icon {
@@ -63,6 +73,7 @@ button {
 }
 
 .film-card {
+  width: 100%;
   height: 140px;
   box-shadow: 0 0 10px #6f91d6;
   background-image: url('https://cdn.pixabay.com/photo/2016/03/30/10/12/cinema-1290368_960_720.png');
@@ -150,7 +161,24 @@ footer {
 }
 
 @media (min-width: 766px) {
+  #root {
+    padding-top: 90px;
+  }
+
   .card-char {
     width: 25% !important;
+  }
+
+  .film-card {
+    width: 50%;
+    height: 200px;
+  }
+
+  .film-card > div {
+    height: 100px;
+  }
+
+  .film-card > div > h2 {
+    margin: 40px 0;
   }
 }

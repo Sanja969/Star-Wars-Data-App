@@ -28,9 +28,9 @@ const NavBar = () => {
                 <li key={link.id} className="link py-0">
                   <NavLink
                     to={link.url}
-                    className={({ isActive }) => (isActive ? 'active nav-item' : 'nav-item text-decoration-none')}
+                    className="nav-item text-decoration-none mx-2 my-0 py-0"
                   >
-                    <p className="nav-link py-1 my-0 text-white">
+                    <p className={({ isActive }) => (isActive ? 'active nav-link py-1 my-0 text-white' : 'nav-link py-1 my-0 text-white')}>
                       {link.text}
                     </p>
                   </NavLink>

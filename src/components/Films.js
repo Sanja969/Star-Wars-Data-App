@@ -13,7 +13,7 @@ const Films = () => {
 
   return (
     <div className="text-white text-center pt-2">
-      <div className="headline py-3">
+      <div className="headline py-3 d-flex flex-column justify-content-between">
         <h4>Star Wars Status</h4>
         <div className="d-flex flex-wrap justify-content-around">
           <div>
@@ -48,7 +48,7 @@ const Films = () => {
         placeholder="Search..."
         onChange={(event) => setSearchValue(event.target.value)}
       />
-      <div className="w-100">
+      <div className="w-100 d-flex flex-wrap">
         <FilmsList films={films} searchValue={searchValue} />
       </div>
 
