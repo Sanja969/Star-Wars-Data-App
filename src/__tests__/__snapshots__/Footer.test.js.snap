@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Footer render Test Footer snapshot 1`] = `
+<footer
+  className="text-white d-flex align-items-center justify-content-around"
+>
+  <button
+    className="logo-footer"
+    onClick={[Function]}
+    type="button"
+  >
+    Star Wars
+  </button>
+  <a
+    className="text-decoration-none text-white"
+    href="https://sanja42.pythonanywhere.com/"
+  >
+    COPYRIGHT © SANJA969
+  </a>
+</footer>
+`;
