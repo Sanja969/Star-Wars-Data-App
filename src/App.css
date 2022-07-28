@@ -51,7 +51,7 @@ p {
   height: 150px;
   background-image: url('https://cdn.pixabay.com/photo/2017/11/01/14/26/star-wars-2908144_960_720.png') !important;
   background-size: 400px;
-  background-position: -20px 0;
+  background-position: 50% 0;
   background-repeat: no-repeat;
 }
 
@@ -182,3 +182,4 @@ footer {
     margin: 40px 0;
   }
 }
+

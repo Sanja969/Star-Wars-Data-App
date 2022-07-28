@@ -2,6 +2,11 @@
 
 Mobile web app that gets information about Films, Characters, Planets, and Starships from https://swapi.dev/ - Star Wars API and displaying, using React and Redux. There are 5 different pages, that show information for items regarding the category. All item cards have the arrow button for navigating to the detail page for showing more information about the item. There are search bars for every category to find the desired items.
 
+
+# Live Demo:
+
+[Live Demo Link](https://star-wars-data-app.herokuapp.com/)
+
 # Screenshots
 
 <p float="left">
@@ -14,6 +19,7 @@ Mobile web app that gets information about Films, Characters, Planets, and Stars
   <img src="/screenshots/screenshot7.png" alt="star wars" width="200">
   <img src="/screenshots/screenshot8.png" alt="star wars" width="200">
 </p>
+
 
 # Getting Started
 
