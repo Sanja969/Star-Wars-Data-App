@@ -1,15 +1,15 @@
+## Star Wars Info App
 
+Mobile web app that gets information about Films, Characters, Planets, and Starships from https://swapi.dev/ - Star Wars API and displaying, using React and Redux. There are 5 different pages, that show information for items regarding the category. All item cards have the arrow button for navigating to the detail page for showing more information about the item.
 
+# Screenshots
 
-## Built With
-
-- Language: ES6
-- Technologies: CSS, Linter, gitflow, React, Redux
-
+<img src="/screenshots/screenshot1.png" alt="star wars">
 
 # Getting Started
 
 To get a local copy up and running follow these simple example steps.
+
 
 ### Download it as a ZIP file
 or
@@ -20,7 +20,7 @@ to get a local copy , clone the repository using git clone
 
 After you clone it run  the following commands
 
- - cd bookstore
+ - cd Star-Wars-Data-App
  - npm install
 - npm run start
 
