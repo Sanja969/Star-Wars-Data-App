@@ -14,6 +14,7 @@ body {
   color: #d3d8c7;
   min-height: 100%;
   position: relative;
+  padding-bottom: 50px;
 }
 
 .navbar {
