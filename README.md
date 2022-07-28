@@ -12,7 +12,7 @@ Mobile web app that gets information about Films, Characters, Planets, and Stars
   <img src="/screenshots/screenshot5.png" alt="star wars" width="200">
   <img src="/screenshots/screenshot6.png" alt="star wars" width="200">
   <img src="/screenshots/screenshot7.png" alt="star wars" width="200">
-  <img src="/screenshots/screenshot9.png" alt="star wars" width="200">
+  <img src="/screenshots/screenshot8.png" alt="star wars" width="200">
 </p>
 
 # Getting Started
