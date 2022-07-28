@@ -1,10 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Roboto&display=swap');
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
 #root {
   padding-top: 50px;
   background-color: #3364b4;
   font-family: 'Mochiy Pop One', sans-serif;
   color: #d3d8c7;
+  min-height: 100%;
+  position: relative;
 }
 
 .navbar {
@@ -134,4 +143,7 @@ footer {
   background-color: #121315;
   box-shadow: 0 0 5px 5px #203153;
   height: 60px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
