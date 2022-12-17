@@ -8,7 +8,7 @@ React, Redux, JS6, Bootstrap
 
 # Live Demo:
 
-[Live Demo Link](https://star-wars-data-app.herokuapp.com/)
+[Live Demo Link](https://star-wars-x.netlify.app/)
 
 # Video:
 
